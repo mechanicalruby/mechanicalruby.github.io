@@ -44,7 +44,7 @@
     .color-strip {
         width: 100%;
         height: 1em;
-        background-color: #3f6dc7;
+        background-color: var(--accent-color);
         border-bottom-left-radius: 5px;
         border-bottom-right-radius: 5px;
     }

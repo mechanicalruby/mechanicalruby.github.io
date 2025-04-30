@@ -44,14 +44,14 @@
 
     .post-link:hover {
         background-color: var(--post-hover-color);
-        border: 1px solid #3f6dc7;
+        border: 1px solid var(--accent-color);
         transition: border 0.3s ease;
     }
 
     .circle {
         width: 1em;
         height: 1em;
-        background-color: #3f6dc7;
+        background-color: var(--accent-color);
         border-radius: 50%;
         margin-right: 0.5em;
         flex-shrink: 0;

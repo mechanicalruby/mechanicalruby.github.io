@@ -47,7 +47,7 @@
         margin: auto;
         padding: 0.25em;
         width: fit-content;
-        background-color: #3f6dc7;
+        background-color: var(--accent-color);
         color: var(--background-color);
         border-radius: 5px;
     }

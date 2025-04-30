@@ -75,7 +75,7 @@
     }
 
     .container:hover {
-        border-color: #3f6dc7;
+        border-color: var(--accent-color);
         transition: border 0.3s ease;
     }
 
