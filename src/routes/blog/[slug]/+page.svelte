@@ -4,6 +4,8 @@
 </script>
 
 <title>{data.title} - MechanicalRuby</title>
+<meta property="og:title" content={data.title} />
+<meta property="og:type" content="website" />
 
 <div class="post">
     <h1>{data.title}</h1>
