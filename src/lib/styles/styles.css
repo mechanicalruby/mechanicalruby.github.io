@@ -56,3 +56,15 @@ a:visited {
     color: var(--background-color);
     border-radius: 5px;
 }
+
+.subheader {
+    margin: 0.5em auto 0.5em auto;
+    padding: 0.25em;
+    width: fit-content;
+    font-size: 1.25em;
+    background-color: var(--background-color);
+    color: var(--accent-color);
+    border: solid 1px;
+    border-color: var(--accent-color);
+    border-radius: 5px;
+}
