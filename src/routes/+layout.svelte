@@ -13,7 +13,7 @@
 <div class="nameplate"> 
     <ProfilePicture
         name="Robbie"
-        username="@MechanicalRuby"
+        username="@mechanicalruby"
         image_src={profile_picture}
         image_rendering="auto"
         route="/"
@@ -52,6 +52,7 @@
         width: 100%;
     }
     .footer {
+        margin-top: 2em;
         width: 100%;
         height: 100%;
         background-position: center;

@@ -55,4 +55,5 @@ a:visited {
     background-color: var(--accent-color);
     color: var(--background-color);
     border-radius: 5px;
+    text-transform: lowercase;
 }

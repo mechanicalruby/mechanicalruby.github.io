@@ -9,11 +9,9 @@
 
 <title>Home - MechanicalRuby</title>
 
-<div class="header">Me</div>
-<hr>
 <div class="intro">
   <p>
-      I'm a developer and an artist. I love games and designing things.
+      Hi! I'm a developer and an artist. I love games and designing things.
       <br/>
       Come and see what I have here ... in my digital hideout!
   </p>
@@ -28,17 +26,6 @@
   date='2025-04-29'
   route="{base}/blog/a-new-path"
   />
-
-<div class="header">Site technology</div>
-<hr>
-<div class="sveltekit-plate">
-  <img src={svelte_logo} alt="Svelte logo" draggable="false"/>
-  <p>
-    I wrote this site using <a href="https://kit.svelte.dev/">SvelteKit</a>! It's pretty cool!
-  </p>
-</div>
-
-<!-- <img src={svelte_logo}/> -->
 
 <style>
   a {
@@ -60,18 +47,5 @@
     justify-content: center;
     padding-left: 5%;
     padding-right: 5%;
-  }
-
-  .sveltekit-plate {
-    display: flex;
-    align-items: center;
-    text-decoration: none;
-    color: inherit;
-  }
-  
-  .sveltekit-plate img {
-    width: 2.5em;
-    padding: 1em;
-    filter: grayscale(1);
   }
 </style>
