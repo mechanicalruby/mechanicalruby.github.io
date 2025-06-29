@@ -69,4 +69,5 @@ a:visited {
     border: solid 1px;
     border-color: var(--accent-color);
     border-radius: 5px;
+    text-transform: lowercase;
 }
