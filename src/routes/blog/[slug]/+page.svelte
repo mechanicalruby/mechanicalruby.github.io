@@ -1,11 +1,26 @@
 <script>
-  /** @type {import('./$types').PageData} */
-  export let data;
+    /** @type {import('./$types').PageData} */
+    export let data;
+
+    import ProfilePicture from "$lib/components/ProfilePicture.svelte";
+    import profile_picture from '$lib/assets/profile/new_avatar.webp'
+
+    import horizontal_line from '$lib/assets/hbar.webp'
 </script>
 
 <title>{data.title} - MechanicalRuby</title>
 <meta property="og:title" content={data.title} />
 <meta property="og:type" content="website" />
+
+<div class="nameplate"> 
+    <ProfilePicture
+        name="Robbie"
+        username="@mechanicalruby"
+        image_src={profile_picture}
+        image_rendering="auto"
+        route="/"
+    />
+</div>
 
 <div class="post">
     <h1>{data.title}</h1>
@@ -39,6 +54,11 @@
         line-height: 1.4em;
         font-family: "Arial";
     }
+
+    .content :global(ul) {
+        line-height: 1.4em;
+        font-family: "Arial";
+    }
     
     h1 {
         text-align: center;
@@ -50,7 +70,7 @@
         padding: 0.25em;
         width: fit-content;
         background-color: var(--accent-color);
-        color: var(--background-color);
+        color: var(--header-text-color);
         border-radius: 5px;
     }
     h2 {

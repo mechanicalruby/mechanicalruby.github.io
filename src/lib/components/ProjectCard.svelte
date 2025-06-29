@@ -1,7 +1,7 @@
 <script>
   // Define props for the component
   export let name = 'Project Title';
-  export let image_src = '$lib/assets/profile/banner.png';
+  export let image_src = '$lib/assets/sokopoko_preview.png';
   export let route = '/project-page'; // Default route
   export let image_rendering = 'auto';
 </script>
@@ -21,10 +21,12 @@
 
 <style>
     :root {
+        --project-background-color:#e0e0e0;
         --project-border-color: #c3c3c3;
     }
 
     :root.dark-mode {
+        --project-background-color: #151515;
         --project-border-color: #3f3f3f;
     }
 
@@ -42,10 +44,7 @@
         align-items: center;
         text-align: center;
         overflow: hidden;
-        border: 1px solid var(--project-border-color);
-        border-radius: 5px;
         text-decoration: none;
-        /* box-shadow: 0px 5px 10px 4px rgb(0 0 0 / 20%); */
     }
 
     .background {
@@ -61,22 +60,20 @@
         z-index: 0; /* Ensure it stays behind the gradient and text */
     }
 
-    .card:hover .background {
-      transform: scale(1.025);
-    }
-
     .container {
         padding: 0.5em;
-
-        margin: 0.25em;
-        border: 1px solid var(--project-border-color);
-        border-radius: 5px;
+        margin: 0.5em;
         text-decoration: none;
+
+        background-color: var(--project-background-color);
+        border: 1px solid transparent;
+        border-radius: 5px;
     }
 
     .container:hover {
-        border-color: var(--accent-color);
-        transition: border 0.3s ease;
+        background-color: var(--post-background-color);
+        border: 1px solid var(--border-color);
+        border-radius: 5px;
     }
 
     .outer-card {
@@ -84,7 +81,7 @@
         margin-left: 0.25em;
         margin-top: 0.25em;
         font-size: 1.25em;
-        text-align: left;
+        justify-content: center;
     }
 
     /* Check if width is low enough for title on desktop, but always show title normally if on touchscreen */
@@ -95,10 +92,6 @@
 
         .card {
             height: 10em;
-        }
-
-        .title-below {
-            display: block;
         }
     }
 </style>

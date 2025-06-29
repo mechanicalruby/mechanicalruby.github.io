@@ -29,8 +29,6 @@
 		margin: 1em auto;
 		padding: 0.5em;
 		background-color: var(--background-color);
-		border: 1px solid var(--border-color);
-        border-radius: 5px;
         width: fit-content;
         transition: background-color 0.3s ease;
 	}

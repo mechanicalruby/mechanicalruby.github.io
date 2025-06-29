@@ -1,19 +1,15 @@
 <script>
     // Define props for the component
-    export let name = 'Blog Post Title';
-    export let description = 'A post from my blog...';
+    export let name = 'Destination';
     export let route = '{base}/blog/post-route';
     export let date = '2024-08-25'; // Default date
     export let icon = '';
 </script>
 
 <a href={route} class="post-link">
-    <div class="circle"></div>
     <div class="post-info">
         <span class="post-name">{name}</span>
-        <p class="post-description">{description}</p>
     </div>
-    <span class="post-date">{date}</span>
 </a>
 
 <style>
@@ -38,7 +34,7 @@
         align-items: flex-start;
         justify-content: space-between;
         padding: 0.5em 1em;
-        margin: 0.5em 0;
+        margin: 0.5em;
         background-color: var(--post-hover-color);
         border: 1px solid transparent;
         border-radius: 5px;
@@ -63,24 +59,8 @@
         margin-top: 0.2em;
     }
 
-    .post-info {
-        flex-grow: 1;
-    }
-
     .post-name {
         font-size: 1.1em;
         font-weight: bold;
-    }
-
-    .post-description {
-        font-size: 0.9em;
-        color: #666;
-        margin-top: 0.2em;
-        margin-bottom: 0.2em;
-    }
-
-    .post-date {
-        font-size: 1em;
-        color: #888;
     }
 </style>

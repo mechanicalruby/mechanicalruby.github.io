@@ -4,28 +4,13 @@
     import '$lib/styles/styles.css';
     import '$lib/styles/prism-base16-ateliersulphurpool.light.css';
 
-    import ProfilePicture from "$lib/components/ProfilePicture.svelte";
-    import profile_picture from '$lib/assets/profile/new_avatar_blue.webp'
+    import tree from '$lib/assets/tree.png'
 </script>
-
-<div class="color-strip"/>
-
-<div class="nameplate"> 
-    <ProfilePicture
-        name="Robbie"
-        username="@MechanicalRuby"
-        image_src={profile_picture}
-        image_rendering="auto"
-        route="/"
-    />
-</div>
 
 <slot></slot>
 
 <footer class="footer">
-    <div class="character-row">
-        <!-- add a row of images here -->
-    </div>
+    <a href="/"><img src={tree} alt="A pixel-art rendered tree"></a>
     <div class="footer-content">
         <p>MechanicalRuby © 2025</p>
         <p>The source code for this site is available on <a href="https://www.github.com/mechanicalruby">GitHub</a>.</p>
@@ -41,21 +26,12 @@
     img {
         margin: 0em; /* between paragraphs */
     }
-    .color-strip {
-        width: 100%;
-        height: 1em;
-        background-color: var(--accent-color);
-        border-bottom-left-radius: 5px;
-        border-bottom-right-radius: 5px;
-    }
-    .nameplate {
-        width: 100%;
-    }
     .footer {
         width: 100%;
         height: 100%;
         background-position: center;
         text-align: center;
+        margin-top: 2em;
         opacity: 60%;
     }
     .character-row {
