@@ -74,7 +74,7 @@
 
     .post-description {
         font-size: 0.9em;
-        color: #666;
+        font-weight: 200;
         margin-top: 0.2em;
         margin-bottom: 0.2em;
     }

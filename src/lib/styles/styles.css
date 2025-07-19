@@ -45,6 +45,16 @@ hr {
     width: 100%;
 }
 
+h1 {
+    font-size: 1.4em;
+}
+
+ul {
+    line-height: 2em;
+    padding-left: 0;
+    list-style-position: inside;
+}
+
 a:visited {
     color: var(--accent-color);
 }

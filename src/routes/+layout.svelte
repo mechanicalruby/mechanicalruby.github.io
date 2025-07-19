@@ -26,6 +26,9 @@
     img {
         margin: 0em; /* between paragraphs */
     }
+    .name {
+        margin-top: 1em;
+    }
     .footer {
         width: 100%;
         height: 100%;
@@ -33,9 +36,6 @@
         text-align: center;
         margin-top: 2em;
         opacity: 60%;
-    }
-    .character-row {
-        padding: 0em;
     }
     .footer-content {
         margin-bottom: 1.4em;
