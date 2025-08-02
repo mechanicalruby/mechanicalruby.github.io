@@ -56,6 +56,6 @@
 	}
 
 	.username {
-		color: gray;
+		opacity: 50%;
 	}
 </style>

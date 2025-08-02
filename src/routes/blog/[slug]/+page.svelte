@@ -12,23 +12,14 @@
 <meta property="og:title" content={data.title} />
 <meta property="og:type" content="website" />
 
-<div class="nameplate"> 
-    <ProfilePicture
-        name="Robbie"
-        username="@mechanicalruby"
-        image_src={profile_picture}
-        image_rendering="auto"
-        route="/"
-    />
-</div>
-
 <div class="post">
-    <h1>{data.title}</h1>
-    <h2>Published {data.date}</h2>
+    <h1>{data.title} - {data.date}</h1>
     <div class="content">
         <svelte:component this={data.content}/>
     </div>
 </div>
+
+<a href="/"> &lt&lt Back to main page</a>
 
 <style>
     .post {
@@ -39,42 +30,37 @@
     .content :global(h1) {
         margin-bottom: -0.25em;
         font-size: 1.5em;
-        font-weight: 600;
+        font-weight: normal;
+        color: var(--text-color);
         /* font-family: "Arial"; */
     }
     
     .content :global(h2) {
         margin-bottom: -0.25em;
         font-size: 1.25em;
-        font-weight: bold;
+        font-weight: normal;
+        color: var(--text-color);
         /* font-family: "Arial"; */
     }
 
     .content :global(p) {
         line-height: 1.4em;
-        font-family: "Arial";
     }
 
     .content :global(ul) {
         line-height: 1.4em;
-        font-family: "Arial";
     }
     
     h1 {
-        text-align: center;
-        margin-bottom: -0.25em;
-        font-size: 2.0em;
-        font-weight: bold;
-
         margin: auto;
-        padding: 0.25em;
+        font-size: 2em;
+        font-weight: normal;
+
         width: fit-content;
-        background-color: var(--accent-color);
-        color: var(--header-text-color);
+        color: var(--text-color);
         border-radius: 5px;
     }
     h2 {
-        text-align: center;
         font-size: 1em;
         font-weight: normal;
     }

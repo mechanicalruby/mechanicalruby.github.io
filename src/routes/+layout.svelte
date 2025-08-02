@@ -1,19 +1,28 @@
 <script>
     import "@fontsource/lexend"; // Defaults to weight 400
-    import "@fontsource/red-hat-display";
+    import "@fontsource/open-sans";
     import '$lib/styles/styles.css';
     import '$lib/styles/prism-base16-ateliersulphurpool.light.css';
 
-    import tree from '$lib/assets/tree.png'
+    import ProfilePicture from "$lib/components/ProfilePicture.svelte";
+    import profile_picture from '$lib/assets/profile/ross_rust.png'
 </script>
+
+<div class="nameplate">
+    <ProfilePicture
+        name="Robbie"
+        username="@mechanicalruby"
+        image_src={profile_picture}
+        image_rendering="auto"
+        route="/"
+    />
+</div>
 
 <slot></slot>
 
 <footer class="footer">
-    <a href="/"><img src={tree} alt="A pixel-art rendered tree"></a>
     <div class="footer-content">
-        <p>MechanicalRuby © 2025</p>
-        <p>The source code for this site is available on <a href="https://www.github.com/mechanicalruby">GitHub</a>.</p>
+        <p>Get some good sleep tonight!</p>
     </div>
 </footer>
 
@@ -25,6 +34,9 @@
     }
     img {
         margin: 0em; /* between paragraphs */
+        object-fit: cover;
+        height: 5em;
+        width: 100%;
     }
     .name {
         margin-top: 1em;
