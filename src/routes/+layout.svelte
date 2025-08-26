@@ -28,7 +28,7 @@
         <li><a href="https://bsky.app/profile/mechanicalruby.bsky.social">Bluesky</a></li>
         <li><a href="https://mechanicalruby.itch.io/">itch.io</a></li>
         <li><a href="mailto:robbierocket05@gmail.com">Email</a></li>
-        <li><a href="{base}/">RSS</a></li>
+        <!-- <li><a href="{base}">RSS</a></li> -->
     </ul>
     <p>Time is precious</p>
 </footer>
