@@ -4,7 +4,7 @@
     import '$lib/styles/prism-atom-dark.css';
 
     import { base } from '$app/paths';
-    import profile_picture from '$lib/assets/profile/avatar.webp'
+    import profile_picture from '$lib/assets/profile/avatar_small.png'
 </script>
 
 <div class="profile">
