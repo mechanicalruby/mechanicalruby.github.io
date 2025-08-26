@@ -1,6 +1,5 @@
 import { error } from '@sveltejs/kit';
 
-/** @type {import('./$types').PageLoad} */
 export async function load({ params }) {
 	// ugh... relative paths
 	const post = await import(`../../../content/blog/${params.slug}/page.md`);

@@ -47,9 +47,10 @@ I'm hoping this is the beginning of a productive and creative era for me. I spen
 
 <style>
   img {
-    display: block;
     margin: auto;
-    height: 8em;
+    object-fit: contain;
+    width: 100%;
+    height: 116px;
     image-rendering: pixelated;
   }
 </style>

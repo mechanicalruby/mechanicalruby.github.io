@@ -1,20 +1,12 @@
 :root {
-    /* Light mode colors */
-    --background-color: #0D0C1D; /* eef0f5 */
-    --border-color: #BF3100;
-    --text-color: #F1DAC4; /* #262b44 */
-    --header-text-color: #BF3100;
-    --horizontal-border-color: #c3c3c3;
-    --accent-color: #BF3100;
+    --background-color: #111111;
+    --text-color: #E0E0E0;
+    --accent-color: #c73e43;
 }
 
 :root.dark-mode {
-    /* Dark mode colors */
-    --background-color: #1c1c1c;
-    --border-color: #3f3f3f;
-    --text-color: #f5f5f2;
-    --header-text-color: #f5f5f2;
-    --horizontal-border-color: #3f3f3f;
+    --background-color: #111111;
+    --text-color: #E0E0E0;
     --accent-color: #c73e43;
 }
 
@@ -25,28 +17,37 @@ html {
 
 body {
     display: table-cell;
-    width: 50em;
+    width: 42em;
     min-height: 100vh;
-    margin: 0;
-    padding-left: 0.5em;
-    padding-right: 0.5em;
-    background-attachment: fixed;
+    padding: 1.5em;
     background-color: var(--background-color);
     background-size: 100vw 100vh;
-    font-family: "Open Sans", "Arial", "sans-serif";
+    font-family: "Arimo", "Arial", "sans-serif";
     color: var(--text-color);
     transition: background-color 0.3s, color 0.3s;
 }
 
 hr {
     border: none;
-    border-top: 2px dotted var(--horizontal-border-color);
+    border-top: 1px solid #CECECE40;
     height: 1px;
     width: 100%;
 }
 
 h1 {
-    font-size: 1.4em;
+    font-size: 2em;
+}
+
+h2 {
+    font-size: 1.5em;
+}
+
+h3 {
+    font-size: 1.2em;
+}
+
+p {
+    font-size: 1.1em;
 }
 
 ul {
@@ -59,30 +60,10 @@ li {
     font-size: 1.1em;
 }
 
-a:visited {
+a {
     color: var(--text-color);
 }
 
-.header {
-    margin: 0.5em auto 0.5em auto;
-    padding: 0.25em;
-    width: fit-content;
-    font-size: 1.25em;
-    background-color: transparent;
-    color: var(--header-text-color);
-    border: solid;
-    border-radius: 5px;
-}
-
-.subheader {
-    margin: 0.5em auto 0.5em auto;
-    padding: 0.25em;
-    width: fit-content;
-    font-size: 1.25em;
-    background-color: var(--background-color);
-    color: var(--accent-color);
-    border: solid 1px;
-    border-color: var(--accent-color);
-    border-radius: 5px;
-    text-transform: lowercase;
+a:visited {
+    color: var(--text-color);
 }

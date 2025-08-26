@@ -1,65 +1,46 @@
 <script>
-    // Components
-    import { onMount } from 'svelte';
-    import PostLink from "$lib/components/PostLink.svelte";
-    import ProjectCard from "$lib/components/ProjectCard.svelte";
-    import DirectoryButton from "$lib/components/DirectoryButton.svelte";
-
-    import soko_preview from '$lib/assets/sokopoko_preview.png'
-
     import { base } from '$app/paths';
+    import preview from '$lib/assets/preview.jpeg'
 </script>
 
 <meta property="og:title" content="MechanicalRuby"/>
-<meta property="og:description" content="Blog."/>
+<meta property="og:description" content="MechanicalRuby's blog"/>
+<meta property="og:image" content={preview}/>
 <meta property="og:type" content="website"/>
 
 <div class="page">
-  <p>
-    Hello! I'm a developer and an artist.
-    Come see what I have here - in my digital hideout.
-  </p>
+    <p>
+        I'm a software developer/visual artist on the Internet.
+    </p>
 
-  <hr>
+    <h3>Currently</h3>
+    <p> 
+        Enthusiastically working on my big project for the year!
+    </p>
 
-  <h3>Blog posts</h3>
-  <ul>
-    <li><a href="{base}/blog/a-new-path/">Hello, world! - Apr 29 2025</a></li>
-  </ul>
+    <h3>Blog posts</h3>
+    <ul>
+        <li><a href="{base}/blog/a-new-path/">Hello, world!</a> - 29 Apr 2025</li>
+    </ul>
 
-  <hr>
-
-  <h3>Links</h3>
-  <ul>
-    <li><a href="https://www.github.com/mechanicalruby">GitHub</a></li>
-    <li><a href="https://bsky.app/profile/mechanicalruby.bsky.social">Bluesky</a></li>
-    <li><a href="mailto:robbierocket05@gmail.com">Email</a></li>
-  </ul>
+    <h3>Miscellaneous</h3>
+    <ul>
+        <li><a href="{base}/links/">Websites I like</a></li>
+        <li><a href="{base}/media/">Media I'm enjoying</a></li>
+        <li><a href="{base}/uses/">Things I'm using</a></li>
+        <li><a href="{base}/log/">Site changelog</a></li>
+    </ul>
 </div>
 
 <style>
-  a {
-    color: var(--text-color);
-    text-decoration: none;
-  }
-
-  br {
-    display: block;
-    margin: 8px 0;
-    line-height: 1em;
-  }
-  
-  p {
-    font-size: 1.1em;
-  }
-
-  .nameplate {
-    width: 100%;
-  }
-
-  .page {
-    justify-content: center;
-    padding-left: 5%;
-    padding-right: 5%;
-  }
+    a {
+        color: var(--text-color);
+        text-underline-offset: 0.2em;
+        text-decoration-color: #FFFFFF80;
+    }
+    br {
+        display: block;
+        margin: 8px 0;
+        line-height: 1em;
+    }
 </style>

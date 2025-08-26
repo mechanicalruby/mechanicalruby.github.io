@@ -1,29 +1,36 @@
 <script>
-    import "@fontsource/lexend"; // Defaults to weight 400
-    import "@fontsource/open-sans";
+    import "@fontsource/arimo";
     import '$lib/styles/styles.css';
-    import '$lib/styles/prism-base16-ateliersulphurpool.light.css';
+    import '$lib/styles/prism-atom-dark.css';
 
-    import ProfilePicture from "$lib/components/ProfilePicture.svelte";
-    import profile_picture from '$lib/assets/profile/ross_rust.png'
+    import { base } from '$app/paths';
+    import profile_picture from '$lib/assets/profile/avatar.webp'
 </script>
 
-<div class="nameplate">
-    <ProfilePicture
-        name="Robbie"
-        username="@mechanicalruby"
-        image_src={profile_picture}
-        image_rendering="auto"
-        route="/"
-    />
+<div class="profile">
+    <img src={profile_picture} alt="Robbie's profile" class="profile-picture"/>
+	<a href="/" class="profile-info">
+		<div class="name"><b>Robbie</b></div>
+		<div class="username">"mechanicalruby"</div>
+	</a>
 </div>
 
 <slot></slot>
 
 <footer class="footer">
-    <div class="footer-content">
-        <p>Get some good sleep tonight!</p>
-    </div>
+    <hr>
+    <ul>
+        <li><a href="{base}/about/">About</a></li>
+        <!-- <li><a href="{base}/">Webrings</a></li> -->
+        <!-- <li><a href="{base}/">Guestbook</a></li> -->
+        :)
+        <li><a href="https://www.github.com/mechanicalruby">GitHub</a></li>
+        <li><a href="https://bsky.app/profile/mechanicalruby.bsky.social">Bluesky</a></li>
+        <li><a href="https://mechanicalruby.itch.io/">itch.io</a></li>
+        <li><a href="mailto:robbierocket05@gmail.com">Email</a></li>
+        <li><a href="{base}/">RSS</a></li>
+    </ul>
+    <p>Time is precious</p>
 </footer>
 
 <style>
@@ -32,24 +39,49 @@
         margin-top: 0.5em;
         margin-bottom: 0.5em;
     }
+    
     img {
-        margin: 0em; /* between paragraphs */
-        object-fit: cover;
-        height: 5em;
+        object-fit: contain;
+        height: 64px;
         width: 100%;
     }
-    .name {
-        margin-top: 1em;
+
+    ul {
+        margin: 0 1em 0 1em;
     }
+
+    li {
+        display: inline;
+        padding: 0.5em;
+    }
+    
     .footer {
         width: 100%;
         height: 100%;
         background-position: center;
         text-align: center;
         margin-top: 2em;
+        margin-bottom: 2em;
         opacity: 60%;
     }
-    .footer-content {
-        margin-bottom: 1.4em;
+
+	.profile {
+        margin: 0.5em;
+        overflow: auto;
+	}
+
+	.profile-picture {
+        width: 64px;
+        height: 64px;
+		border-radius: 0%;
+        margin-right: 0.8em;
+        float: left;
+	}
+
+    .profile-info {
+        font-size: 1.1em;
+        margin-top: 0.7em;
+        text-decoration: none;
+        float: left;
     }
 </style>
