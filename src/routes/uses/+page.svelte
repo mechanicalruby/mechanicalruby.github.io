@@ -18,7 +18,7 @@
     <li><a href="https://www.debian.org/"><b>Debian 13</b></a>. My chosen Linux distro.</li>
     <li><a href="https://www.gnu.org/software/emacs/"><b>GNU Emacs</b></a>. My primary text editor for programming.</li>
     <li><a href="https://www.gimp.org/"><b>GIMP</b></a>. My preferred program for static pixel art and image editing.</li>
-    <li><a href=""><b>Krita</b></a>. The amazing application I use for illustration.</li>
+    <li><a href="https://krita.org/"><b>Krita</b></a>. The amazing application I use for illustration.</li>
     <li><a href="https://www.reaper.fm/"><b>REAPER</b></a>. The best digital audio workstation (a.k.a. the best software ever).</li>
 </ul>
 
