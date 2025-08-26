@@ -20,7 +20,7 @@
 <footer class="footer">
     <hr>
     <ul>
-        <li><a href="{base}/about/">About</a></li>
+        <li><a href="{base}/about">About</a></li>
         <!-- <li><a href="{base}/">Webrings</a></li> -->
         <!-- <li><a href="{base}/">Guestbook</a></li> -->
         :)

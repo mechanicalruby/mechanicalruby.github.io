@@ -13,7 +13,7 @@
     <svelte:component this={data.content}/>
 </div>
 
-<a href="{base}/"> &lt&lt Back to main page</a>
+<a href="/"> &lt&lt Back to main page</a>
 
 <style>
     .title-info {

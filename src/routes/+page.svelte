@@ -3,7 +3,7 @@
     import preview from '$lib/assets/preview.jpeg'
 </script>
 
-<title>Hello! - MechanicalRuby</title>
+<title>Hello! - MechanicalRuby</title>  
 
 <meta property="og:title" content="MechanicalRuby"/>
 <meta property="og:description" content="MechanicalRuby's blog"/>
@@ -22,16 +22,16 @@
 
     <h3>Blog posts</h3>
     <ul>
-        <li><a href="{base}/blog/the-first-redesign/">The first redesign</a> - 25 Aug 2025</li>
-        <li><a href="{base}/blog/a-new-path/">Hello, world!</a> - 29 Apr 2025</li>
+        <li><a href="{base}/blog/the-first-redesign">The first redesign</a> - 25 Aug 2025</li>
+        <li><a href="{base}/blog/a-new-path">Hello, world!</a> - 29 Apr 2025</li>
     </ul>
 
     <h3>Miscellaneous</h3>
     <ul>
-        <li><a href="{base}/links/">Websites I like</a></li>
-        <li><a href="{base}/media/">Media I'm enjoying</a></li>
-        <li><a href="{base}/uses/">Things I'm using</a></li>
-        <li><a href="{base}/log/">Site changelog</a></li>
+        <li><a href="{base}/links">Websites I like</a></li>
+        <li><a href="{base}/media">Media I'm enjoying</a></li>
+        <li><a href="{base}/uses">Things I'm using</a></li>
+        <li><a href="{base}/log">Site changelog</a></li>
     </ul>
 </div>
 
