@@ -30,7 +30,6 @@
         <li><a href="mailto:robbierocket05@gmail.com">Email</a></li>
         <!-- <li><a href="{base}">RSS</a></li> -->
     </ul>
-    <p>Time is precious</p>
 </footer>
 
 <style>
