@@ -1,4 +1,5 @@
-<title>Links - MechanicalRuby</title>
+<title>Websites I like - MechanicalRuby</title>
+
 <meta property="og:title" content="Websites I like" />
 <meta property="og:type" content="website" />
 

@@ -1,4 +1,5 @@
 <title>Media I'm enjoying - MechanicalRuby</title>
+
 <meta property="og:title" content="Media I'm enjoying" />
 <meta property="og:type" content="website" />
 

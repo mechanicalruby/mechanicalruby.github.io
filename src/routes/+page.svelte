@@ -3,6 +3,8 @@
     import preview from '$lib/assets/preview.jpeg'
 </script>
 
+<title>Hello! - MechanicalRuby</title>
+
 <meta property="og:title" content="MechanicalRuby"/>
 <meta property="og:description" content="MechanicalRuby's blog"/>
 <meta property="og:image" content={preview}/>

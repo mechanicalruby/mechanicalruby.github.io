@@ -1,3 +1,5 @@
+<title>Things I'm using - MechanicalRuby</title>
+
 <h1>Things I'm using</h1>
 <p>A list of the stuff I use constantly</p>
 

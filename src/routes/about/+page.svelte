@@ -1,3 +1,5 @@
+<title>About me - MechanicalRuby</title>
+
 <h1>About me</h1>
 <p>
     Hello! This is my internet outpost.

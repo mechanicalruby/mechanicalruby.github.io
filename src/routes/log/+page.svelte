@@ -1,3 +1,5 @@
+<title>Site changelog - MechanicalRuby</title>
+
 <h1>Site changelog</h1>
 <ul>
     <li>29 Apr 2025 - Initial deployment</li>

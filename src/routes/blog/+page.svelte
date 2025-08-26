@@ -2,6 +2,8 @@
     import { base } from '$app/paths';
 </script>
 
+<title>Blog posts - MechanicalRuby</title>
+
 <h1>Blog posts</h1>
 <ul>
     <li><a href="{base}/blog/the-first-redesign/">The first redesign</a> - 25 Aug 2025</li>
