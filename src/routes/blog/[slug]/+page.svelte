@@ -7,8 +7,8 @@
 <meta property="og:title" content={data.title} />
 <meta property="og:type" content="website" />
 
-<div class="title-info">{data.title}</div>
-<div class="date-info">published {data.date}</div>
+<h1>{data.title}</h1>
+<p>published {data.date}</p>
 <div class="content">
     <svelte:component this={data.content}/>
 </div>
@@ -16,7 +16,7 @@
 <a href="/"> &lt&lt Back to main page</a>
 
 <style>
-    .title-info {
+    h1 {
         font-size: 2em;
         font-weight: bold;
         text-align: center;
@@ -24,8 +24,11 @@
         margin-bottom: 0.2em;
     }
 
-    .date-info {
+    p {
+        font-size: 1em;
+        font-weight: normal;
         text-align: center;
+        margin-top: 0em;
         margin-bottom: 0.8em;
     }
 
