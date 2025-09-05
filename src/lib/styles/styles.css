@@ -62,6 +62,8 @@ li {
 
 a {
     color: var(--text-color);
+    text-underline-offset: 0.2em;
+    text-decoration-color: #FFFFFF80;
 }
 
 a:visited {

@@ -36,11 +36,6 @@
 </div>
 
 <style>
-    a {
-        color: var(--text-color);
-        text-underline-offset: 0.2em;
-        text-decoration-color: #FFFFFF80;
-    }
     br {
         display: block;
         margin: 8px 0;
