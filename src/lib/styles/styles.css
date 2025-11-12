@@ -1,5 +1,5 @@
 :root {
-    --background-color: #111111;
+    --background-color: #000000;
     --text-color: #E0E0E0;
     --accent-color: #c73e43;
 }
@@ -22,7 +22,7 @@ body {
     padding: 1.5em;
     background-color: var(--background-color);
     background-size: 100vw 100vh;
-    font-family: "Arimo", "Arial", "sans-serif";
+    font-family: "Arial", "sans-serif";
     color: var(--text-color);
     transition: background-color 0.3s, color 0.3s;
 }
@@ -44,6 +44,12 @@ h2 {
 
 h3 {
     font-size: 1.2em;
+}
+
+h4 {
+    font-size: 0.9em;
+    line-height: 0;
+    opacity: 50%;
 }
 
 p {

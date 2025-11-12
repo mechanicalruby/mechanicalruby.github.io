@@ -1,19 +1,16 @@
 <script>
-    import "@fontsource/arimo";
     import '$lib/styles/styles.css';
     import '$lib/styles/prism-atom-dark.css';
-
     import { base } from '$app/paths';
-    import profile_picture from '$lib/assets/profile/avatar_small.png'
 </script>
 
 <div class="profile">
-    <img src={profile_picture} alt="Robbie's profile" class="profile-picture"/>
 	<a href="/" class="profile-info">
-		<div class="name"><b>Robbie</b></div>
-		<div class="username">"mechanicalruby"</div>
+		<div class="name"><b>robbie</b> (mechanicalruby)</div>
 	</a>
 </div>
+
+<hr>
 
 <slot></slot>
 
@@ -21,8 +18,6 @@
     <hr>
     <ul>
         <li><a href="{base}/about">About</a></li>
-        <!-- <li><a href="{base}/">Webrings</a></li> -->
-        <!-- <li><a href="{base}/">Guestbook</a></li> -->
         :)
         <li><a href="https://www.github.com/mechanicalruby">GitHub</a></li>
         <li><a href="https://bsky.app/profile/mechanicalruby.bsky.social">Bluesky</a></li>
@@ -65,21 +60,12 @@
     }
 
 	.profile {
-        margin: 0.5em;
         overflow: auto;
-	}
-
-	.profile-picture {
-        width: 64px;
-        height: 64px;
-		border-radius: 0%;
-        margin-right: 0.8em;
-        float: left;
 	}
 
     .profile-info {
         font-size: 1.1em;
-        margin-top: 0.7em;
+        margin-top: 0.5em;
         text-decoration: none;
         float: left;
     }
