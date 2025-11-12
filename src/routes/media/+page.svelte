@@ -10,15 +10,19 @@
 
 <h2>Games!</h2>
 <hr>
-<h3>Persona 5 (PS3)</h3>
+<h3>Persona 5 / Royal (PS3, PS4)</h3>
 <p>
-    I started playing this one a couple of days ago (22 Aug 2025). Really
+    (22 Aug 2025) I started playing this one a couple of days ago. Really
     liking it so far! I'm not typically into turn-based combat, but this one cuts
     the fat and adds a lot of feedback during play. It's really satisfying.
 </p>
 <p>
     I'm only like, 7 hours in, so I can't really say much other than that I want
     to go back to playing it...
+</p>
+<p>
+    (30 Oct 2025) Bought Royal for PS4 and started over. I'm now 24 hours into my
+    save, starting the third palace soon. I like this game.
 </p>
 
 <h3>Eastward (PC)</h3>
